@@ -1,0 +1,14 @@
+<sqlconnection>
+ <sql id="sql2005">
+	<url>jdbc:sqlserver://localhost:1433;databaseName=newer</url>    
+	<driver>com.microsoft.sqlserver.jdbc.SQLServerDriver.class</driver>
+    <user>sa</user>
+    <pwd>123</pwd>
+ </sql>
+<sql id="oracle">
+	<url>jdbc:oracle:thin:@localhost:1521:zeng</url>
+    <driver>oracle.jdbc.OracleDriver</driver>
+    <user>scott</user>
+    <pwd>tiger</pwd>
+ </sql>
+</sqlconnection>

@@ -1,0 +1,104 @@
+package me.zwy.work1;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class Shop {
+
+	/**
+	 * 模拟超市打单过程
+	 * 输出 结果: (相同的商品合成一条输出)
+	 * 商品名称	数量       单价  小计
+	 * 茶叶		2        2      4
+	 * 面包		1        3      3
+	 * 牙膏		2        6     12   总价：xxx
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		HashSet<Goods> hs = new HashSet<Goods>();
+		
+		Goods gs = new Goods("茶叶",1,2);
+		hs.add(gs);
+		gs = new Goods("茶叶",1,2);
+		hs.add(gs);
+		gs = new Goods("面包",1,3);
+		hs.add(gs);
+		gs = new Goods("牙膏",1,6);
+		hs.add(gs);
+		gs = new Goods("牙膏",1,6);
+		hs.add(gs);
+		
+		System.out.println("商品名称     " + "数量      " + "单价       " + "小计");
+		int sum = 0;
+		Iterator<Goods> it = hs.iterator();
+		while(it.hasNext()){
+			Goods g = it.next();
+			sum += g.getPrice()*g.getCount();
+			System.out.println(g + "       " + g.getPrice()*g.getCount());
+		}
+		System.out.println("总价：" + sum + "元");
+	}
+
+}
+
+class Goods{
+	private String name;
+	private int count;
+	private int price;
+	
+	public Goods() {
+		super();
+	}
+	public Goods(String name, int count, int price) {
+		super();
+		this.name = name;
+		this.count = count;
+		this.price = price;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getCount() {
+		return count;
+	}
+	public void setCount(int count) {
+		this.count = count;
+	}
+	public int getPrice() {
+		return price;
+	}
+	public void setPrice(int price) {
+		this.price = price;
+	}
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((name == null) ? 0 : name.hashCode());
+		return result;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Goods other = (Goods) obj;
+		if (name == null) {
+			if (other.name != null)
+				return false;
+		} else if (!name.equals(other.name))
+			return false;
+		other.count+=this.count;
+		return true;
+	}
+	@Override
+	public String toString() {
+		return this.name + "               " + this.count + "      " + this.price;
+	}
+}

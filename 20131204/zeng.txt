@@ -1,0 +1,5 @@
+hello world!
+中文
+java中文也可以，English
+中文也可以，English
+中文也可以，English当然也行Hello你好hello

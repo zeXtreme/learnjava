@@ -1,0 +1,17 @@
+<students>
+ <student>
+  <name>zs</name>
+  <age>20</age>
+  <tel>13737373737</tel>
+ </student>
+ <student>
+  <name>ls</name>
+  <age>21</age>
+  <tel>13838383838</tel>
+ </student>
+ <student>
+  <name>ww</name>
+  <age>22</age>
+  <tel>13939393939</tel>
+ </student>
+</students>

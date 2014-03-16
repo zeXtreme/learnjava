@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class demo5 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner input = new Scanner(System.in);
+
+		System.out.println("请输入华氏摄氏度：");
+		int f = input.nextInt();
+		System.out.println("摄氏摄氏度为：" + (5 / 9.0 * (f - 32)));
+
+	}
+
+}

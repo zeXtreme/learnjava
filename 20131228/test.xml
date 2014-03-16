@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employees>
+	<Employee eid="1">
+		<name>zs</name>
+		<age>20</age>
+	</Employee>
+	<Employee eid="2">
+		<name>ls</name>
+		<age>22</age>
+	</Employee>
+</Employees>
