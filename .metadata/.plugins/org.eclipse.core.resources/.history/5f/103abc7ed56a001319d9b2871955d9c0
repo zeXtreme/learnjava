@@ -1,0 +1,22 @@
+package me.zwy.work2;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class UserThread extends Thread {
+
+	private ServerSocket ss = null;
+	
+	public UserThread(ServerSocket ss){
+		this.ss = ss;
+	}
+	@Override
+	public void run() {
+		try {
+			Socket s = ss.accept();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

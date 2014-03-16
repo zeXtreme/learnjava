@@ -1,0 +1,10 @@
+package me.zwy.code;
+
+public class Test1 {
+
+	public static void main(String[] args) {
+		String str = "1111111";
+		Integer.parseInt(str);
+	}
+
+}

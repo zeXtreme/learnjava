@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="174" key="DIALOG_Y_ORIGIN"/>
+		<item value="563" key="DIALOG_X_ORIGIN"/>
+		<item value="399" key="DIALOG_HEIGHT"/>
+		<item value="1|微软雅黑|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|微软雅黑" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="" key="selection"/>
+		<list key="findhistory">
+			<item value="冒泡"/>
+			<item value="setVisible"/>
+			<item value="// TODO 自动生成的 catch 块"/>
+			<item value="// TODO 自动生成的方法存根"/>
+			<item value="c.getName()+&quot;  &quot;+c.getAge()+&quot;  &quot;+c.getTel()"/>
+			<item value="&quot;姓名&quot;+&quot;   &quot;+&quot;年龄&quot;+&quot;   &quot;+&quot;电话&quot;"/>
+			<item value="&quot;Contacts.dat&quot;"/>
+			<item value="new Scanner(System.in)"/>
+		</list>
+		<list key="replacehistory">
+			<item value=" "/>
+			<item value=""/>
+			<item value="c.getName()+&quot;\t&quot;+c.getAge()+&quot;\t&quot;+c.getTel()"/>
+			<item value="&quot;姓名&quot;+&quot;\t&quot;+&quot;年龄&quot;+&quot;\t&quot;+&quot;电话&quot;"/>
+			<item value="FILE_NAME"/>
+			<item value="scan"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="234" key="DIALOG_Y_ORIGIN"/>
+		<item value="281" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

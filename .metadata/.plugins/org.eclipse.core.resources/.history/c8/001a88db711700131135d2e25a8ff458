@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+
+public class demo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input=new Scanner(System.in);
+		
+		System.out.println("请输入物品单价：");
+		double price=input.nextDouble();
+		System.out.println("请输入物品数量：");
+		int num=input.nextInt();
+		System.out.println("物品总价为："+(price*num));
+
+	}
+
+}

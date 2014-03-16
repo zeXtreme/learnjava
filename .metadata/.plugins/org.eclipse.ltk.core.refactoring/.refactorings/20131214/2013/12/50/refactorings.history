@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将编译单元“me.zwy.code.CallableStatement.java”重命名为“CallableTest.java”&#x0D;&#x0A;－ 原始项目：“20131214”&#x0D;&#x0A;－ 原始元素：“me.zwy.code.CallableStatement.java”&#x0D;&#x0A;－ 重命名的元素：“me.zwy.code.CallableTest.java”" description="重命名编译单元“CallableStatement.java”" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;me.zwy.code{CallableStatement.java" name="CallableTest.java" references="false" stamp="1386990607025" version="1.0"/>
+</session>

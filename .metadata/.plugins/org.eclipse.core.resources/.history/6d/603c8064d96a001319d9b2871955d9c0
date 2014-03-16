@@ -1,0 +1,22 @@
+package me.zwy.work2;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.HashMap;
+
+public class Server {
+
+	public static void main(String[] args) {
+		try {
+			HashMap<String, OutputStream> hm = new HashMap<>();
+			ServerSocket ss = new ServerSocket(10086);
+			Socket s = ss.accept();
+			s.getOutputStream();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

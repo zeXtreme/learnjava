@@ -1,0 +1,103 @@
+{
+  "C:\\Program Files\\Java\\jre7\\lib\\rt.jar": {
+    "coordinate": "jre:jre:zip:call:1.0.0",
+    "location": "C:\\Program Files\\Java\\jre7\\lib\\rt.jar",
+    "status": "RESOLVED",
+    "error": "No call model found for \u0027C:\\Program Files\\Java\\jre7\\lib\\rt.jar\u0027. Neither fingerprint \u002736d1d282d74feb2ee8fadf44c737098f150d0084\u0027 nor symbolic name \u0027jre\u0027 are known."
+  },
+  "D:\\Java\\code\\20131205\\src": {
+    "location": "D:\\Java\\code\\20131205\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131205\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131206\\src": {
+    "location": "D:\\Java\\code\\20131206\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131206\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131207\\src": {
+    "location": "D:\\Java\\code\\20131207\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131207\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\Practice\\src": {
+    "location": "D:\\Java\\code\\Practice\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\Practice\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131211\\src\\lib\\crimson.jar": {
+    "location": "D:\\Java\\code\\20131211\\src\\lib\\crimson.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\Java\\code\\20131211\\src\\lib\\crimson.jar\u0027. Neither fingerprint \u002731e3dac9777abfec809ad9315f8b5d283cd46c40\u0027 nor symbolic name \u0027crimson\u0027 are known."
+  },
+  "D:\\Java\\code\\20131213\\src": {
+    "location": "D:\\Java\\code\\20131213\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131213\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131214\\src": {
+    "location": "D:\\Java\\code\\20131214\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131214\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131214\\src\\lib\\classes12.jar": {
+    "location": "D:\\Java\\code\\20131214\\src\\lib\\classes12.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\Java\\code\\20131214\\src\\lib\\classes12.jar\u0027. Neither fingerprint \u0027c1ed37329cd54011e3027d03eab78e99ef4813ad\u0027 nor symbolic name \u0027classes12\u0027 are known."
+  },
+  "D:\\Java\\code\\20131217\\src": {
+    "location": "D:\\Java\\code\\20131217\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131217\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131218\\src": {
+    "location": "D:\\Java\\code\\20131218\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131218\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131221\\src": {
+    "location": "D:\\Java\\code\\20131221\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131221\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131225\\src": {
+    "location": "D:\\Java\\code\\20131225\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131225\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131227\\src": {
+    "location": "D:\\Java\\code\\20131227\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131227\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131228\\src": {
+    "location": "D:\\Java\\code\\20131228\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131228\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\20131230\\src": {
+    "location": "D:\\Java\\code\\20131230\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\20131230\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\JExcelApi\\src\\lib\\jxl.jar": {
+    "location": "D:\\Java\\code\\JExcelApi\\src\\lib\\jxl.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\Java\\code\\JExcelApi\\src\\lib\\jxl.jar\u0027. Neither fingerprint \u00277faf62e0697f7a88954622dfe8c8de33ed142ac7\u0027 nor symbolic name \u0027jxl\u0027 are known."
+  },
+  "D:\\Java\\code\\JPinyin\\src\\lib\\jpinyin-1.0.jar": {
+    "location": "D:\\Java\\code\\JPinyin\\src\\lib\\jpinyin-1.0.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\Java\\code\\JPinyin\\src\\lib\\jpinyin-1.0.jar\u0027. Neither fingerprint \u00278f2a0988f56145888ef22eacaf0c01dcdd8fecd4\u0027 nor symbolic name \u0027opensource.jpinyin\u0027 are known."
+  },
+  "D:\\Java\\code\\Work1\\src": {
+    "location": "D:\\Java\\code\\Work1\\src",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027D:\\Java\\code\\Work1\\src\u0027. Skipped."
+  },
+  "D:\\Java\\code\\BeanShell\\src\\lib\\bsh-2.0b4.jar": {
+    "location": "D:\\Java\\code\\BeanShell\\src\\lib\\bsh-2.0b4.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027D:\\Java\\code\\BeanShell\\src\\lib\\bsh-2.0b4.jar\u0027. Neither fingerprint \u0027a05f0a0feefa8d8467ac80e16e7de071489f0d9c\u0027 nor symbolic name \u0027bsh-2.0b4\u0027 are known."
+  }
+}
